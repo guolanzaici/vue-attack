@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { loginUser } from '../services/userService';
+import { loginUser } from '@/services/userService';
 
 export default {
   data() {
@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-@import '@/assets/styles.css';
+@import '../assets/styles.css';
 
 .btn {
   padding: 10px 20px;
