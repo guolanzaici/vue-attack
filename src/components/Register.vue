@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { registerUser } from '@/services/userService';
+import { registerUser } from '../services/userService';
 
 export default {
   data() {
