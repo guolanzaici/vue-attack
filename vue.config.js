@@ -1,4 +1,3 @@
-// vue.config.js
 const {resolve} = require("node:path");
 module.exports = {
     chainWebpack: config => {
@@ -7,7 +6,7 @@ module.exports = {
             .use('url-loader')
             .loader('url-loader')
             .tap(options => {
-                options.limit = 10240; // 限制图片大小，小于此值的图片会被转为base64
+                options.limit = 10240;
                 return options;
             });
     },
