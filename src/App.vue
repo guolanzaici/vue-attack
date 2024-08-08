@@ -48,7 +48,7 @@ export default {
 }
 
 body {
- background-image: url('D:/attach/trueweb/src/assets/tutu.jpg');
+ background-image: url('./assets/tutu.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
