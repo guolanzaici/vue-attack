@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { registerUser } from 'D:/attach/trueweb/src/services/userService';
+import { registerUser } from '@/services/userService';
 
 export default {
   data() {
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style scoped>
-@import 'D:/attach/trueweb/src/assets/styles.css';
+@import '@/assets/styles.css';
 
 .btn {
   padding: 10px 20px;
