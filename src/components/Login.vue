@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { loginUser } from 'D:/attach/trueweb/src/services/userService';
+import { loginUser } from '@/services/userService';
 
 export default {
   data() {
